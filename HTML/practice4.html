@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice4</title>
+</head>
+
+<body>
+    <!-- 1.create an html page with video controlled inside it  -->
+
+    <video src="valo.mp4" controls loop width="500px"></video>
+
+    <!-- 2.Replace this video in 1 with a youtube video -->
+
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/BsDoLVMnmZs?si=LBr38QRDxi-WuSSk"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- 3. create an html form for a travel website to book a vacation  -->
+
+    <div>
+        <h1>Form for booking a vacation in dubai</h1>
+        <form action="from.php">
+            <label for="name">
+                <p>name : </p>
+                <input type="text" placeholder="Enter your name">
+            </label>
+            <br>
+            <label for="Contact no.">
+                <p>Contact number : </p>
+                <input type="text" placeholder="Enter your phone number ">
+            </label>
+            <br>
+            <label for="groupmembers">
+                <p>number of members in your group : </p>
+                <input type="text" placeholder="Enter no. of members">
+            </label>
+            <br>
+            <h2>What about your expenses ?</h2>
+            <label for="advanced">
+                <input type="radio" name="expenses" value="advance" id="advanced">advanced
+            </label>
+            <label for="medium">
+                <input type="radio" name=expenses value="madium" id="medium">medium
+            </label>
+            <label for="basic">
+                <input type="radio" name="expenses" value="basic" id="basic">basic
+            </label>
+            <br>
+            <select name="car" id="car">Select your car
+                <option value="no car">Select your car</option>
+                <option value="van">van</option>
+                <option value="bus">bus</option>
+                <option value="mini">mini</option>
+                <option value="sedan">sedan</option>
+            </select>
+            <br>
+            <h2>Something you want to tell about your trip</h2>
+            <textarea name="explain" id="explain" cols="30" rows="10" placeholder="Explain Here"></textarea>
+            <br>
+            <ul>
+                <li>about</li>
+                <li>contact</li>
+                <li>services</li>
+            </ul>
+        </form>
+    </div>
+</body>
+
+</html>

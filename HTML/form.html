@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h1>Travel from for our trip</h1>
+        <form action="form.php">
+            <input type="text" placeholder="Enter your name">
+            <br>
+            <label for="SectionidA">
+                <input type="radio" name="Section" value="Section A" id="Sectionid">Section A
+            </label>
+            
+            <label for="SectionidB">
+                <input type="radio" name="Section" value="Section B" id="SectionidB">Section B
+            </label>
+        
+            <label for="SectionidC">
+                <input type="radio" name="Section" value="Section C" id="SectionidC">Section C
+            </label>
+            <br>
+            
+            <!-- checkbox -->
+            <input type="checkbox" name="Canteen" id="foodcanteen" class = "red">
+            <label for="foodcanteen">Canteen</label>
+            <br>
+
+            <!-- text area  -->
+
+            <textarea name="explain" id="explain" cols="30" rows="10"  placeholder="Explain Why you want to join?"></textarea>
+            <br>
+            
+            <!-- select box  -->
+
+            <select name="car" id="car">Select your car
+                <option value="no car">Select your car</option>
+                <option value="omni">omni</option>
+                <option value="baleno">baleno</option>
+                <option value="BMW">BMW</option>
+            </select>
+            <br>
+
+            <!-- function of iframe -->
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BsDoLVMnmZs?si=TDfTubSaIfof51KG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <iframe src="https://bing.com" frameborder="0" width="892px"></iframe>
+            <br>
+
+            <!-- video -->
+             
+            <video src="" controls loop></video>
+        </form>
+</body>
+
+</html>
